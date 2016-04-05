@@ -346,6 +346,7 @@ class TankBundle(object):
             
             # lastly, append our own object to the added module. This is to make it easier to 
             # do elegant imports in the class scope via the tank.platform.import_framework method
+            print "BUNDLE IMPORTED MODULE: " + str(mod_name)
             sys.modules[mod_name]._tank_bundle = self
         
         finally:

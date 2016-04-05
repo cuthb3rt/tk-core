@@ -37,6 +37,7 @@ def _get_current_bundle():
     # this variable is the fallback in this case and it contains a reference
     # to the current bundle.
     current_bundle = ImportStack.get_current_bundle()
+
     if not current_bundle:
         # try to figure out the associated bundle using module trickery,
         # looking for the module which called this command and looking for

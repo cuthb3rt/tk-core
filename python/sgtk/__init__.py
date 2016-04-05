@@ -9,6 +9,7 @@
 # not expressly granted therein are reserved by Shotgun Software Inc.
 
 
+"""
 ALT_API_NAME = "tank"
 THIS_MODULE_NAME = "sgtk"
 
@@ -38,5 +39,5 @@ for x in sys.modules.keys():
 
 # lastly, remap the globals accessor to point at our new module
 globals()[THIS_MODULE_NAME] = sys.modules[THIS_MODULE_NAME]
-
+"""
 
